@@ -578,6 +578,7 @@ System::Void TetrisSample::PlayForm::RepopBlock(Point ^ position)
 
 bool TetrisSample::PlayForm::RepopCheck(int pattern, Point ^ position)
 {
+	//
 	bool check = false;
 
 	block_pattern^ temp  = gcnew block_pattern();
